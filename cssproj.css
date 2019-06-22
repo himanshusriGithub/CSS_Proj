@@ -1,3 +1,4 @@
+
 .him{perspective-origin:50%-100%%;
   perspective: 1500px;
 width:800px;
@@ -18,18 +19,19 @@ height:500px;
 }
 .cubeFace {
   position: absolute;
+
   left:40%;top:0;
   width: 20%;height:100%;
   margin: 0 auto;
   transform-style: inherit;
-  background: #C52329;
+  background: white;
   box-shadow:inset 0 0 0 5px #333; 
   transform-origin:50% 50%;
   transform: rotateX(90deg);
   backface-visibility:hidden;
 }
 .face2 {
-
+ font-style:italic;
   transform-origin:50% 50%;
   transform: rotateZ(90deg) translateX(100%) rotateY(90deg);
 }
@@ -57,7 +59,7 @@ body:hover .cube{
 }
 #backgd{
 	background-color:black;
-background-image: url('../CSS_Proj/images/pic12.jpg') ;
+background-image: url('../CSS_Proj/images/bg2.jpg') ;
 background-repeat:no-repeat;
 
   padding: 15px;
@@ -74,27 +76,28 @@ background-repeat:no-repeat;
 h2.logo {color:red;
               letter-spacing:0.6em;
          font-family:"Times New Roman";
-         margin:100px;
+         margin:30px;
 position: fixed;		 }
 
 
-p.head {color:white;
+p.head {color:black;
         font-family:"arial";
 		word-spacing:0.6em;
 	margin-left:850px;
 	margin-top:250px;
 	}
 
-p.contact {color:white;
-        font-family:"arial";
-	
+p.contact {
+
+        font-family:"Times new Roman";
+	font-size:30px;
          letter-spacing:0.2em;
 		 position: absolute;
-        top: 116px;
-        right: 80px;
+        top: 136px;
+        right: 150px;
 		}
 
-h1.intro {color:#A9A9A9;
+h1.intro {color:black;
         font-family:"arial";
          letter-spacing:0.2em;
 		 position: absolute;
